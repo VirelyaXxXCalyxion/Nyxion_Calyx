@@ -28,14 +28,14 @@ Most files in this repository are Markdown, MDX, Astro, or JSON documents. Updat
 The repository includes a small Node.js utility for append-only updates to the invariants file:
 
 ```bash
-cd /home/runner/work/Nyxion_Calyx/Nyxion_Calyx/invarients_anchor
+cd invarients_anchor
 node update-nyxion-invariants.mjs --help
 ```
 
 Example:
 
 ```bash
-cd /home/runner/work/Nyxion_Calyx/Nyxion_Calyx/invarients_anchor
+cd invarients_anchor
 node update-nyxion-invariants.mjs \
   --summary "Refined invariants wording" \
   --type "maintenance-update" \
